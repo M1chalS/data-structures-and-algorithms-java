@@ -17,5 +17,10 @@ public class AdjacencyMatrixAndList {
         graph.addEdge(4, 2);
 
         graph.print();
+
+        System.out.println("--- Depth first Search ---");
+        graph.depthFirstSearch(4);
+        System.out.println("--- Breadth first Search ---");
+        graph.breadthFirstSearch(4);
     }
 }
